@@ -1,0 +1,9 @@
+/* Comentários em css são assim*/
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+html, body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
