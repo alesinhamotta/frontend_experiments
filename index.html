@@ -1,83 +1,50 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crie seu site e seja visto!</title>
-    <!-- Estilos CSS para seguir o layout da tarefa -->
-    <style>
-        body {
-            font-family: sans-serif;
-            width: 80%;
-            max-width: 800px;
-            margin: 40px auto; /* Centraliza o conteúdo na página */
-            border: 1px solid #ccc;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        nav a {
-            margin-right: 15px;
-            text-decoration: none;
-            color: blue;
-        }
-        img {
-            max-width: 200px;
-            display: block;
-            margin-top: 15px;
-            border: 1px solid #ddd;
-            padding: 5px;
-        }
-        footer {
-            margin-top: 20px;
-            font-size: 0.8em;
-            text-align: center;
-            color: #777;
-        }
-        hr {
-            border: 0;
-            border-top: 1px solid #eee;
-            margin: 20px 0;
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Importa o componente CSS do Bootstrap da CDN (Content Delivery Network) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css">
+
+    <!-- Importa os ícones do Bootstrap da CDN -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css">
+
+    <title>FrontEXP</title>
 </head>
+
 <body>
+    <!-- div#wrap "abraça" todo o conteúdo para aplicar efeitos -->
+    <div id="wrap">
+        <!-- Cabeçalho da página -->
+        <header>
+            <!-- Nome / Logotipo do site -->
+            <h1>Front<i class="bi bi-flask"></i>EXP</h1>
 
-    <header>
-        <h1>Crie seu site! </h1>
-        <nav>
-            <a href="#">Início</a>
-            <a href="#">Contatos</a>
-            <a href="#">Sobre</a>
-        </nav>
-    </header>
+            <!-- Menu de navegação principal -->
+            <nav>
+                <a href="index.html"> <i class="bi bi-house-heart-fill"></i>Início</a>
+                <a href="contacts.html"><i class="bi bi-chat-heart-fill"></i> Contatos</a>
+                <a href="about.html"><i class="bi bi-info-circle-fill"></i> Sobre</a>
+            </nav>
+        </header>
 
-    <hr>
+        <!-- Conteúdo principal da página -->
+        <main>
+            <h2>Título desta Página</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita cum fuga quidem itaque error corrupti
+                sequi velit, voluptatem vero molestiae veritatis eos ad ex maxime iste illum atque repellat sint.</p>
+        </main>
 
-    <main>
-       <h2>Por que criar um site para sua empresa?</h2>
+        <!-- Rodapé da página -->
+        <footer>&copy; 2025 Joca da Silva</footer>
+    </div>
 
-  <p>✔ Seja visto por seus clientes no mundo inteiro, 24 horas por dia, 7 dias por semana.</p>
-  <p>✔ Um site aumenta a credibilidade e a confiança da sua marca.</p>
-  <p>✔ Facilita o contato com clientes e gera novas oportunidades de negócio.</p>
-  <p>✔ Mostre seus produtos e serviços de forma profissional e organizada.</p>
-  <p>✔ Ter presença digital é essencial para competir no mercado atual.</p>
-
-        <!--
-          IMPORTANTE:
-          1. Crie uma pasta chamada 'img' dentro do seu projeto.
-          2. Salve a imagem que você quer usar dentro dessa pasta 'img'.
-          3. Renomeie o 'src' abaixo para o nome exato do seu arquivo de imagem.
-        -->
-        <img src="img/importanciadosite.png" alt="Logo da minha empresa">
-
-    </main>
-
-    <hr>
-
-    <footer>
-        <p>&copy; 2025 Alessandra M S.</p>
-    </footer>
+    <!-- Importa o componente JavaScript do Bootstrap da CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js"></script>
 
 </body>
-</html>
 
+</html>
