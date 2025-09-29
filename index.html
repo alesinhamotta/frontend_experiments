@@ -1,46 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<!-- Metadados do documento HTML -->
 <head>
-    <!-- Caracteres reconhecios universalmente -->
     <meta charset="UTF-8">
-    <!-- Responsividade -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Carrega as folhas de estilo principais -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Folhas de stilo internas ou anexadas -->
+    <title>Crie seu site e seja visto!</title>
+    <!-- Estilos CSS para seguir o layout da tarefa -->
     <style>
         body {
-            background-color: rgb(206, 203, 200);
+            font-family: sans-serif;
+            width: 80%;
+            max-width: 800px;
+            margin: 40px auto; /* Centraliza o conteúdo na página */
+            border: 1px solid #ccc;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: blue;
+        }
+        img {
+            max-width: 200px;
+            display: block;
+            margin-top: 15px;
+            border: 1px solid #ddd;
+            padding: 5px;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.8em;
+            text-align: center;
+            color: #777;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #eee;
+            margin: 20px 0;
         }
     </style>
-    <!-- Título desta página. Aparece na guia do navegador -->
-    <title>Busca Aqui!</title>
 </head>
-
-<!-- Parte visível da página → viewport -->
 <body>
 
-    <h1 style="color: rgb(184, 38, 38);">Busca Aqui!</h1>
-    <h2>Comércio na palma da sua mão!</h2>
-    <h3> As melhores lojas estão Aqui</h3>
-    <h4> Tudo o que você precisa em um click </h4>
-    
+    <header>
+        <h1>Crie seu site! </h1>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Contatos</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
 
-<a href="https://google.com/maps" target="_blank">Pesquise no google maps</a>
+    <hr>
 
-<a href="sobre.html" title="Sobre o Site">Sobre</a>
-    
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi facere commodi quas officia a earum saepe delectus neque, voluptatum suscipit, nisi maiores pariatur error veritatis soluta quidem quae dolorum dicta?</p>
+    <main>
+       <h2>Por que criar um site para sua empresa?</h2>
 
-    <img src="img/comercio.jpg" alt="busque a loja que precisa" width="300px">
-    <br>
-    <img src="https://br.freepik.com/vetores-gratis/comercio-internacional-desenhado-a-mao-ilustrado_20285428.htm#fromView=keyword&page=1&position=46&uuid=95def925-0154-4012-b791-70fc983efcf1&query=Comercio" alt="">
+  <p>✔ Seja visto por seus clientes no mundo inteiro, 24 horas por dia, 7 dias por semana.</p>
+  <p>✔ Um site aumenta a credibilidade e a confiança da sua marca.</p>
+  <p>✔ Facilita o contato com clientes e gera novas oportunidades de negócio.</p>
+  <p>✔ Mostre seus produtos e serviços de forma profissional e organizada.</p>
+  <p>✔ Ter presença digital é essencial para competir no mercado atual.</p>
 
-    <script src="js/script.js"></script>
-    <script>
-        console.log('java Script dentro da página')
-    </script>
+        <!--
+          IMPORTANTE:
+          1. Crie uma pasta chamada 'img' dentro do seu projeto.
+          2. Salve a imagem que você quer usar dentro dessa pasta 'img'.
+          3. Renomeie o 'src' abaixo para o nome exato do seu arquivo de imagem.
+        -->
+        <img src="img/importanciadosite.png" alt="Logo da minha empresa">
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2025 Alessandra M S.</p>
+    </footer>
+
 </body>
 </html>
+
